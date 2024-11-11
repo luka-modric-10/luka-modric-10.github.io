@@ -1,0 +1,370 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&family=Cormorant+Unicase:wght@300;400;500;600;700&family=Krub:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+<!--Home Page-->
+
+h1 {
+    font-family:  "Cinzel Decorative", Georgia, 'Times New Roman', Times, serif;
+    font-size: 55px;
+}
+
+#home-page {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url(../images/greenland-site-landing.jpg); 
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+nav ul {
+    list-style-type: "\1F4CD";
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    max-width: 240px;
+    max-height: 240px;
+    justify-content: center;
+    margin: 0 auto;
+    font-family: "Cormorant Unicase", 'Times New Roman', Times, serif;
+    width: 50px;
+}
+
+header {
+    margin: auto 40px;
+    min-width: 400px;
+}
+
+footer {
+    margin-top: 40px;
+    position: absolute;
+    bottom: 0;
+}
+
+nav {
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    margin-left: 50px;
+    padding: 5px;
+    padding-right: 20px;
+}
+
+#bg {
+    grid-column: 2;
+    grid-row: 1;
+}
+
+#ppl {
+    grid-column: 1;
+    grid-row: 2;
+}
+
+#geog {
+    grid-column: 3;
+    grid-row: 3;
+}
+
+ul a, footer a {
+    color: #331213;
+    text-decoration-style: wavy;
+}
+
+ul a:link, footer a:link {
+    color: #261C4D;
+    text-decoration-style: wavy;
+}
+
+ul a:visited, footer a:visited {
+    color: #6E1A61;
+    text-decoration-style: wavy;
+}
+
+ul a:hover, footer a:hover {
+    color: #315827;
+    text-decoration-style: wavy;
+}
+
+ul a:active, footer a:active {
+    color: #7F0044;
+    background-color: rgba(159, 159, 155, 0.5);
+    text-decoration-style: wavy;
+}
+
+
+/* -----------all----------------- */
+h2 {
+    font-family:  "Cinzel Decorative", Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    font-family:  "Cinzel Decorative", Georgia, 'Times New Roman', Times, serif;
+    font-size: 55px;
+}
+
+/* ---------background------------ */
+
+#background-page p,
+#background-page figure{
+    font-family: "Krub", 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#background-page {
+    margin: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    max-width: 1500px;
+    grid-template-areas: 
+    "hook hook"
+    "aerial polarbear"
+    "aerial polarbear"
+    "the-rest flag"
+    "the-rest .";
+}
+
+#hook {
+    padding: 20px;
+    padding-left: 38px;
+    grid-area: hook;
+}
+
+#aerial {
+    grid-area: aerial;
+    margin: auto;
+    max-width: 500px;
+}
+
+#polarbear {
+    grid-area: polarbear;
+    margin: 80px auto;
+    padding-top: 20px;
+}
+
+#the-rest {
+    grid-area: the-rest;
+    line-height: 2;
+}
+
+#flag {
+    grid-area: flag;
+    max-width: 300px;
+}
+
+/* ---------ppl + society------------ */
+
+h3, h4 { 
+    font-family:  "Cinzel Decorative", Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+th {
+    font-family:  "Cinzel Decorative", Georgia, 'Times New Roman', Times, serif;
+}
+
+td {
+    font-family: "Krub", 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#people p,
+#people figure {
+    font-family: "Krub", 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+figure, figcaption {
+    font-family: "Krub", 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+ol li, 
+ul li {
+    font-family: "Krub", 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+article p {
+    font-family: "Krub", 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#peepole-soc-nav ul {
+    display: block;
+    list-style-type: "\1F464";
+    line-height: 2;
+    font-size: 18px;
+}
+
+#people h3, #culture h3, #government h3{
+    font-size: 28px;
+    text-decoration: underline;
+    text-decoration-style: wavy;
+}
+
+#people h4, #culture h4 {
+    font-size: 20px;
+}
+
+#people {
+    display: grid;
+    grid-template-columns: 1fr auto; 
+    grid-gap: 20px;
+}
+
+#people p, 
+#people h3, 
+#people h4 {
+    grid-column: 1;
+}
+
+#ppl-table {
+    grid-column: 1;
+    grid-row: 2;
+}
+
+#people figure {
+    grid-column: 2; 
+    grid-row: 2;
+    max-width: 300px;
+    padding-right: 20px;
+}
+
+#culture {
+    display: grid;
+    grid-template-columns: 1fr auto; 
+    grid-gap: 20px;
+    grid-template-areas: 
+    "cult-title cult-title"
+    "text-cult pic-cult"
+    "text-cult ."
+    "text-cult .";
+}
+
+#culture-body {
+    grid-area: text-cult;
+}
+
+#culture-title {
+    grid-area: cult-title;
+}
+
+#culture figure {
+    grid-area: pic-cult;
+    max-width: 300px;
+    padding-right: 30px;
+    margin: 20px;
+
+}
+
+#ppl-table tr {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 100px;
+}
+
+#sex-col {
+    grid-column: 1;
+}
+
+#pop-col {
+    grid-column: 2;
+}
+
+#people a, #cult-pic a, figcaption a {
+    color: #4285AD;
+    text-decoration-style: dotted;
+}
+
+#people a:link, #cult-pic a:link, figcaption a:link {
+    color: #261C4D;
+    text-decoration-style: dotted;
+}
+
+#people a:visited, #cult-pic a:visited, figcaption a:visited {
+    color: #31E1D7;
+    text-decoration-style: dotted;
+}
+
+#people a:hover, #cult-pic a:hover, figcaption a:hover {
+    color: #315827;
+    text-decoration-style: dotted;
+}
+
+#people a:active, #cult-pic a:active, figcaption a:active {
+    color: #4D8B30;
+    background-color: rgba(159, 159, 155, 0.5);
+    text-decoration-style: dotted;
+}
+
+
+
+/* --------geography-------- */
+
+#geo-nav ul {
+    display: block;
+    list-style-type: "\1F3D4";
+    line-height: 2;
+    font-size: 18px;
+    margin: 20px;
+    justify-content: none;
+    padding: 0;
+}
+
+#main-geo h3 {
+    font-size: 28px;
+    text-decoration: underline;
+    text-decoration-style: wavy;
+}
+
+#geography-and-geology {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    grid-template-areas: 
+    "title ."
+    "texts ."
+    "texts2 ."
+    "texts3 ."
+    "texts4 image"
+    ". image";
+}
+
+#geography-and-geology h3{
+    grid-area: title;
+}
+#texts {
+    grid-area: texts;
+}
+
+#texts2 {
+    grid-area: texts2;
+
+}
+
+#texts3 {
+    grid-area: texts3;
+}
+#texts4 {
+    grid-area: texts4;
+}
+
+#geography-and-geology figure {
+    display: grid;
+    grid-area: image;
+}
+
+#climate-location {
+    padding: 30px;
+    margin-top: 20px;
+}
+
+#le-title {
+    display: flex;
+    justify-content: center;
+}
