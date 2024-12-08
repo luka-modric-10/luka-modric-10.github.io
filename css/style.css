@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Henny+Penny&family=Purple+Purse&family=Red+Hat+Text:ital,wght@0,300..700;1,300..700&display=swap');
+
+/* ----------------------------------- landing page  ------------------------------------*/
+
+h1 {
+    font-family: 'Henny Penny', 'Times New Roman', Times, serif;
+    font-size: 55px;
+    margin-left: 15px;
+}
+
+#left-container nav {
+    font-family: 'Purple Purse', 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+
+nav li {
+    list-style-type: "\2708";
+    line-height: 50px;
+}
+
+
+#left-container {
+    float: left; 
+  }
+  
+  img {
+    width: 28%; 
+    padding: 20px; 
+  }
+
+  footer {
+    clear: both;
+    text-align: center;
+    font-family: 'Purple Purse', 'Times New Roman', Times, serif;
+  }
+
+.grid-container {
+    float: right;
+    width: 60%;
+    padding: 10px;
+  }
+  
+  .grid-item {
+    width: 50%;
+    height: auto;
+    padding: 20px;
+  }
+
+  /* ---------------------------------------- link states -----------------------------------------*/
+
+a:link {
+    color: #2A0C4E;
+}
+
+a:visited {
+    color: #000;
+    background-color: #FCF6BD;
+    text-shadow: none;
+}
+
+a:focus {
+    color: #084887;
+    background-color: rgba(245, 138, 7, 0.1);
+}
+
+a:hover {
+    color: #000;
+    text-shadow: #950952 1px 0 10px;
+}
+
+a:active {
+    text-shadow: #285238;
+    text-decoration: underline dashed;
+}
+
+/*  ------------------------------------about me-----------------------------------------------*/
+
+h1, h2 {
+    font-family: 'Henny Penny','Times New Roman', Times, serif;
+}
+
+#about-masthead {
+    text-align: center;
+}
+
+#about p, #about figcaption {
+    font-family: 'Red Hat Text', Arial, Helvetica, sans-serif;
+}
+
+#about {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+#about figure {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 90%;
+    height: 300px;
+}
+
+#map {
+    display: flex;
+    width: 100%;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    margin: 200px 10px 0 0;
+}
+
+#about p {
+    margin: 0 20px 0 20px;
+    line-height: 2;
+}
+
+#about h2 {
+    font-size: 42px;
+    margin: 20px 20px 0 20px;
+    display: flex;
+    justify-content: center;
+}
+
+#selfie {
+    width: 60%;
+    display: grid;
+    align-items: center;
+    margin-bottom: 30px;
+    margin-top: 0;
+}
+
+#selfie-container {
+    margin: 0  0 20px 0;
+    overflow: hidden;
+}
+
+/*  ----------------------------------------trips--------------------------------------------------*/
+
+#trips h1, h2 {
+    font-family: 'Henny Penny','Times New Roman', Times, serif;
+}
+
+#trips h2 {
+    font-size: 35px;
+}
+
+#trips li {
+    font-family: 'Purple Purse','Times New Roman', Times, serif;
+    font-size: 25px;
+}
+
+#trips p, #trips figcaption {
+    font-family: 'Red Hat Text', Arial, Helvetica, sans-serif;
+}
+
+#trips time {
+    background-color: rgb(121, 169, 209, 0.1);
+}
+
+#trips main {
+    display: grid;
+    grid-template-rows: auto auto auto;
+    gap: 20px;
+}
+
+#trips section {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    align-items: start;
+}
+
+.pic-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
+
+.pic-grid img {
+    width: 70%;
+}
+
+#trips p {
+    line-height: 2;
+}
+
+
+
+/*  ----------------------------------my suitcase-------------------------------------------------*/
+
+#in-my-suitcase h1, h2 {
+    font-family: 'Henny Penny','Times New Roman', Times, serif;
+}
+
+#in-my-suitcase h2 {
+    font-size: 35px;
+}
+
+#in-my-suitcase li {
+    font-family: 'Purple Purse','Times New Roman', Times, serif;
+    font-size: 25px;
+}
+
+#in-my-suitcase p, #in-my-suitcase figcaption {
+    font-family: 'Red Hat Text', Arial, Helvetica, sans-serif;
+}
+
+#in-my-suitcase figure {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    align-items: start;
+    justify-content: center;
+    width: 50%;
+}
+
+#in-my-suitcase img {
+    width: 69%;
+}
+
+#too-long {
+    line-height: 1.5;
+    margin-right: 820px;
+}
